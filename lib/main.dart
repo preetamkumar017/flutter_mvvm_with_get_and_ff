@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ghar_darpan/getx/getx_localization/languages.dart';
+import 'package:ghar_darpan/res/getx_loclization/languages.dart';
 import 'package:ghar_darpan/res/routes/routes.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Flutter Demo',
+      title: 'Ghar Darpan',
       translations: Languages(),
       // this were you will give your local, like if its hindi, urdu, spanish
       locale: Locale('en', 'US'),
